@@ -1,0 +1,25 @@
+/* Russian-language presentation: keep the shared wedding palette, use legible Cyrillic fonts. */
+body, .shared-header nav a, .shared-contact, .shared-footer, .article p, .article li,
+.article-intro, .article-meta, .faq-list, .hero-copy, .concierge-copy,
+.steps-section, .payment-section, .pride-details, .article-hub {
+  font-family: Arial, "Noto Sans", "DejaVu Sans", sans-serif;
+}
+.shared-header { direction:ltr; }
+.shared-header nav { direction:ltr; }
+.shared-brand { font:600 23px/1.15 Georgia, "Times New Roman", serif; letter-spacing:.01em; }
+.shared-contact { font-weight:600; }
+.article, .reading-page { direction:ltr; text-align:left; }
+.article h1, .article h2, .article h3, .reading-page h1 { font-family:Georgia, "Times New Roman", serif; letter-spacing:normal; }
+.notice { border-left:3px solid #929b79; border-right:0; }
+.check-list { padding-left:22px!important; }
+.check-list li { padding-left:3px; }
+.hero-copy { text-align:left; }
+
+.ru-home-image { display:block; width:min(100%,720px); height:auto; margin:0 auto; border-radius:3px; }
+.ru-home-visual { padding:22px 24px 40px; background:#f1f2eb; text-align:center; }
+.ru-home-visual figcaption { margin-top:9px; font-size:13px; color:#596344; }
+.article-hub .article-card { max-width:760px; }
+.article-hub .card-image img { object-fit:cover; }
+@media(max-width:1050px){.shared-header nav{order:3;width:100%}}
+@media(max-width:620px){.shared-header nav{gap:0 14px}.shared-header nav a{font-size:14px}.shared-brand{font-size:21px}.language-switch{margin-left:auto}}
+.hero-copy{direction:ltr}.payment-grid{text-align:left}.hero h1,.pride-page .hero h1,.concierge-copy h2,.payment-section header h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:normal}

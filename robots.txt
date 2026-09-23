@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wedding4u.co.il/sitemap.xml
+

@@ -1,0 +1,13 @@
+.wedding-films{padding:64px clamp(20px,5vw,80px);background:#fff}
+.wedding-films>header{max-width:780px;margin:0 auto 30px;text-align:center}
+.wedding-films h2{font:400 clamp(30px,3.3vw,46px)/1.4 "Gveret Levin",Georgia,serif;margin:0 0 16px;color:#344438}
+.wedding-films p{font-size:18px;line-height:1.7;margin:0 0 10px}
+.wedding-films small{font-size:13px;color:#66705d}
+.wedding-films-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:1280px;margin:auto}
+.wedding-films-grid:has(>figure:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr));max-width:1060px}
+.wedding-films figure{margin:0;min-width:0;background:#f1f5e9;border-radius:14px;overflow:hidden}
+.wedding-films video{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:contain;background:#182019}
+.wedding-films video:focus-visible{outline:3px solid #997339;outline-offset:-3px}
+.wedding-films figcaption{padding:15px 18px;font-size:18px;text-align:center;color:#40573f}
+html[lang=ru] .wedding-films h2{font-family:Georgia,"Times New Roman",serif}
+@media(max-width:800px){.wedding-films{padding-block:40px}.wedding-films-grid,.wedding-films-grid:has(>figure:nth-child(2):last-child){grid-template-columns:1fr;max-width:580px;gap:22px}}

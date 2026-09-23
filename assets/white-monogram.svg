@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 92" fill="none" role="img" aria-label="W עם ענפי זית">
+  <g stroke="#68724f" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M33 62C47 53 56 40 65 21M147 62c-14-9-23-22-32-41"/>
+    <path d="M43 54c-10-1-16-5-20-12 9 0 16 3 20 12ZM52 44c-9-2-14-7-17-14 9 1 14 6 17 14ZM60 32c-7-4-10-10-10-17 7 3 11 9 10 17ZM137 54c10-1 16-5 20-12-9 0-16 3-20 12ZM128 44c9-2 14-7 17-14-9 1-14 6-17 14ZM120 32c7-4 10-10 10-17-7 3-11 9-10 17Z" fill="#9ba17f" stroke="none"/>
+    <path d="M67 24 82 70 91 43 100 70 115 24" stroke="#39432f" stroke-width="3.2"/>
+    <path d="M61 72h58" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+.photo-editorial[data-gallery] { padding: 30px clamp(22px, 4.3vw, 68px) 68px; }
+.gallery-intro { max-width: 720px; margin: 0 auto 22px; text-align: center; }
+.gallery-intro .section-heading { margin-bottom: 5px; }
+.gallery-disclaimer { margin: 0; color: #626956; font-size: 12px; }
+.gallery-controls { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 0 auto 17px; direction: ltr; }
+.gallery-controls button { width: 42px; height: 42px; display: inline-grid; place-items: center; border: 1px solid #9ca38b; border-radius: 50%; background: transparent; color: #35402f; font: 22px/1 Arial, sans-serif; cursor: pointer; }
+.gallery-controls button:hover { background: #e9eee8; }
+.gallery-controls button:disabled { opacity: .38; cursor: default; }
+.gallery-controls button:focus-visible, .gallery-track:focus-visible { outline: 2px solid var(--olive); outline-offset: 4px; }
+.gallery-count { min-width: 58px; color: #596344; font-size: 13px; font-variant-numeric: tabular-nums; text-align: center; }
+.gallery-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.gallery-track { max-width: 960px; margin-inline: auto; display: flex; gap: 20px; overflow-x: auto; padding: 0 2px 15px; scroll-snap-type: x mandatory; scroll-padding-inline: 2px; scrollbar-color: #aab09b #eceee6; scrollbar-width: thin; direction: ltr; }
+.gallery-slide { flex: 0 0 100%; min-width: 0; max-width: none; margin: 0; scroll-snap-align: start; }
+.gallery-slide img { display: block; width: 100%; height: clamp(240px, 48vw, 480px); max-height: 65svh; object-fit: contain; background: #e9eee8; }
+.gallery-slide figcaption { padding: 9px 2px 0; color: #3e4737; font: 500 15px/1.55 var(--serif); direction: rtl; text-align: right; }
+@media (min-width: 1500px) { .gallery-slide { flex-basis: 100%; } }
+@media (max-width: 850px) { .gallery-slide { flex-basis: 100%; } }
+@media (max-width: 620px) {
+  .photo-editorial[data-gallery] { padding: 28px 20px 40px; }
+  .gallery-intro { padding-inline: 18px; }
+  .gallery-disclaimer { max-width: 330px; margin-inline: auto; }
+  .gallery-controls { margin-bottom: 12px; }
+  .gallery-slide { flex-basis: 100%; min-width: 0; }
+  .gallery-slide figcaption { padding-inline: 4px; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .gallery-track { scroll-behavior: auto; } }
