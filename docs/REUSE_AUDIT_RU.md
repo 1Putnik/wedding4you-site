@@ -1,0 +1,7 @@
+# Аудит повторного использования для точки входа `/app/`
+
+Проверены `1Putnik/wedding4you-site` commit `52b2abe`: `index.html`, `ru/index.html`, `shared.css`, `white-wedding.css`, `assets/white-details.webp`, `assets/approved-chuppah-logo-v2-768.webp`. Сайт уже имеет RU/HE навигацию, статус «приложение в разработке», стиль кнопок и подходящие изображения. Здесь нет backend, сборки, зависимостей или тестовой системы. Эти элементы повторно использованы для статической точки входа; новый runtime-модуль не создан.
+
+Проверены `1Putnik/wedding4you` commit `1f07da1`: `src/pilot.ts`, `src/pilot-vault.ts`, `src/applicant-access.ts`, `src/pilot-service-checkout.ts`, `client-vault/index.html`, `client-vault/vault.js` и `client-vault/README.md`. Их тесты находятся в `tests/pilot-http.test.ts`, `tests/applicant-access.test.ts`, `tests/pilot-service-checkout.test.ts` и `client-vault/test.mjs`. Локальный owner pilot и синтетический browser vault не подходят для размещения на публичном GitHub Pages: у них другая модель доступа, хранения и допустимых данных. Код, настройки, секреты и данные не копировались. В приложении также уже задокументирован аудит Katya, Duo, Balaganoff и локального agent bridge в `docs/REUSE_AUDIT_RU.md`; для этой статической навигации там нет переносимого компонента.
+
+Итог: в этом PR повторно используются только существующие визуальные и контентные элементы сайта. Предполагаемый серверный контур описан в `docs/APP_INTEGRATION_RU.md`; он не реализован этим PR. Внешние тесты приложений не запускались для этой ветки сайта.
