@@ -31,3 +31,5 @@
 .shared-header nav a{font-size:14px;padding:8px 13px;min-height:42px}
 }
 @media(prefers-reduced-motion:reduce){.shared-header nav a{transition:none}}
+.shared-header nav a.login-link{border-color:#40573f;background:#fff;color:#344438;font-weight:700}
+.shared-header nav a.login-link:hover{background:#e7eddd}

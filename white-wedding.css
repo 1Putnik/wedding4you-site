@@ -202,6 +202,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--olive); outlin
 .innovation-status{display:inline-block;border:1px solid #abbca8;border-radius:30px;padding:5px 14px;font-size:14px;color:#eff3eb}
 .innovation-feature p{font:18px/1.8 var(--sans);margin:0 0 16px;max-width:560px}
 .innovation-feature .innovation-lead{font-size:22px;line-height:1.5}.innovation-feature .innovation-note{color:#e1e9dc;margin:20px 0 0;border-top:1px solid #6a7c6b;padding-top:16px;font-size:16px}
+.innovation-entry{display:inline-flex;align-items:center;min-height:44px;margin-top:16px;color:#fff;text-decoration-thickness:1px;text-underline-offset:5px;font:600 16px/1.4 var(--sans)}
+.innovation-entry:focus-visible{outline:3px solid #fff;outline-offset:4px}
 .payment-section{padding:64px 32px;max-width:1100px;margin:auto;text-align:center;background:#fff}
 .payment-section header h2{font:400 clamp(30px,3.4vw,44px)/1.4 "Gveret Levin",var(--serif);margin:0 0 12px}.payment-section header p{font-size:18px;margin:0 0 32px}
 .payment-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;text-align:right;margin-bottom:28px}
