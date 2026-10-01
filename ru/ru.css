@@ -23,3 +23,4 @@ body, .shared-header nav a, .shared-contact, .shared-footer, .article p, .articl
 @media(max-width:1050px){.shared-header nav{order:3;width:100%}}
 @media(max-width:620px){.shared-header nav{gap:0 14px}.shared-header nav a{font-size:14px}.shared-brand{font-size:21px}.language-switch{margin-left:auto}}
 .hero-copy{direction:ltr}.payment-grid{text-align:left}.hero h1,.pride-page .hero h1,.concierge-copy h2,.payment-section header h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:normal}
+@media(max-width:620px){.hero h1{font-size:clamp(34px,10vw,42px);line-height:1.15;overflow-wrap:anywhere}.hero-copy{min-width:0;align-items:stretch}.hero-lead{overflow-wrap:anywhere}}

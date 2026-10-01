@@ -36,3 +36,12 @@
 .shared-header nav a{font-size:14px;padding:8px 13px;min-height:42px}
 }
 @media(prefers-reduced-motion:reduce){.shared-header nav a{transition:none}}
+@media(max-width:620px){
+  .shared-header{grid-template-columns:minmax(0,1fr) auto;gap:6px 8px;padding-inline:12px!important}
+  .shared-header .approved-logo{width:108px;height:74px}
+  .shared-header .language-switch{font-size:13px}
+  .shared-header .language-switch a,.shared-header .language-switch span{padding:5px 7px;min-height:34px}
+  .shared-header .shared-contact{padding:7px 12px;font-size:13px}
+  .shared-header nav{max-width:100%;gap:6px}
+  .shared-header nav a{font-size:13px;padding:7px 10px;min-height:38px}
+}

@@ -204,6 +204,9 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--olive); outlin
 .innovation-feature p{font:18px/1.8 var(--sans);margin:0 0 16px;max-width:560px}
 .innovation-feature .innovation-lead{font-size:22px;line-height:1.5}.innovation-feature .innovation-note{color:#e1e9dc;margin:20px 0 0;border-top:1px solid #6a7c6b;padding-top:16px;font-size:16px}
 .payment-section{padding:64px 32px;max-width:1100px;margin:auto;text-align:center;background:#fff}
+.payment-section .price-eyebrow{margin:0 0 8px;color:#586a53;font-size:15px;letter-spacing:.04em}
+.payment-section header h2{color:#344438}
+.payment-section .price-note{max-width:680px;margin:0 auto 28px;padding:16px 22px;border:1px solid #d8ddcf;border-radius:8px;background:#f3f5ee;color:#455041;font-size:16px;line-height:1.7}
 .payment-section header h2{font:400 clamp(30px,3.4vw,44px)/1.4 "Gveret Levin",var(--serif);margin:0 0 12px}.payment-section header p{font-size:18px;margin:0 0 32px}
 .payment-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;text-align:right;margin-bottom:28px}
 .payment-card{padding:30px;border:1px solid #d8ddcf;border-radius:8px;background:#f3f5ee}.payment-card.financing{background:#fff}
