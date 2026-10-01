@@ -58,6 +58,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--olive); outlin
 .story-copy .story-lead { font: 500 22px/1.65 var(--serif); }
 .text-link, .quiet-link { text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .text-link { display: inline-block; margin-top: 4px; font-size: 14px; }
+.hero-copy > .text-link { min-height: 44px; display: inline-flex; align-items: center; }
 
 .steps-section { padding: 72px max(34px, calc((100% - 1120px) / 2)) 86px; background: #f2f2eb; }
 .steps-section .section-heading { margin-bottom: 48px; }
